@@ -4,3 +4,15 @@ Backup Summary for erpnext.localhost at 2025-04-22 18:00:04.060090
 Config  : /home/rohy/evalaivr/evaluation/sites/erpnext.localhost/private/backups/20250422_180002-erpnext_localhost-site_config_backup.json 127.0B
 Database: /home/rohy/evalaivr/evaluation/sites/erpnext.localhost/private/backups/20250422_180002-erpnext_localhost-database.sql.gz 781.9KiB
 Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0228b583edd5eb9b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0228b583edd5eb9b | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250423_120002-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-04-23 12:00:04.860494
+Config  : /home/rohy/evalaivr/evaluation/sites/erpnext.localhost/private/backups/20250423_120002-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/rohy/evalaivr/evaluation/sites/erpnext.localhost/private/backups/20250423_120002-erpnext_localhost-database.sql.gz 801.0KiB
+Backup for Site erpnext.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_0228b583edd5eb9b --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _0228b583edd5eb9b | /usr/bin/gzip >> ./erpnext.localhost/private/backups/20250423_180005-erpnext_localhost-database.sql.gz
+
+Backup Summary for erpnext.localhost at 2025-04-23 18:00:12.574670
+Config  : /home/rohy/evalaivr/evaluation/sites/erpnext.localhost/private/backups/20250423_180005-erpnext_localhost-site_config_backup.json 127.0B
+Database: /home/rohy/evalaivr/evaluation/sites/erpnext.localhost/private/backups/20250423_180005-erpnext_localhost-database.sql.gz 804.9KiB
+Backup for Site erpnext.localhost has been successfully completed

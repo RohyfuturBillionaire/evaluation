@@ -1,0 +1,6 @@
+2025-04-23 11:35:11,922 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {'public': '0', 'new_widgets': '{}', 'blocks': '[]', 'cmd': 'frappe.desk.doctype.workspace.workspace.save_page'}
+2025-04-23 13:09:43,195 ERROR frappe New Exception collected in error log
+Site: erpnext.localhost
+Form Dict: {}
